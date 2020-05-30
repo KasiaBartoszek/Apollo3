@@ -1,0 +1,11 @@
+Nasze pliki znajdują się w m.in.:
+
+Blocks
+Gun
+Materials
+Props
+Script
+Textures
+i w folderze głównym
+
+W prefabs będą prefaby złożone z tych obiektów
