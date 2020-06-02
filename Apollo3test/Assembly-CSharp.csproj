@@ -76,6 +76,7 @@
      <Compile Include="Assets\SetSettingsScript1.cs" />
      <Compile Include="Assets\_Barking_Dog\Common Scripts\Turn_Move.cs" />
      <Compile Include="Assets\attachToCameraGunStatic.cs" />
+     <Compile Include="Assets\flickeringLight.cs" />
      <None Include="Assets\czytajmnie.txt" />
      <None Include="Assets\EarthRendering Free\Earth.shader" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
