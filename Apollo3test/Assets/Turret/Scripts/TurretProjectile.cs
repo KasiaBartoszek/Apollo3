@@ -8,6 +8,7 @@ public class TurretProjectile : MonoBehaviour
     /// Speed of the projectile.
     /// </summary>
     public float ProjectileSpeed;
+    public int damage;
 
     // Update is called once per frame
     void Update()
@@ -19,7 +20,8 @@ public class TurretProjectile : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            // Deal damage to player HERE
+            Health hp = other.GetComponent<Health>();
+            hp.takeDamage(damage);
         }
 
         Destroy(gameObject);
