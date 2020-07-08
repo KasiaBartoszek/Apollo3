@@ -39,6 +39,7 @@
      <Compile Include="Assets\EarthRendering Free\CameraCtrl.cs" />
      <Compile Include="Assets\GameManager\GameManager.cs" />
      <Compile Include="Assets\Health\Health.cs" />
+     <Compile Include="Assets\Health\Healthbar\HealthBar.cs" />
      <Compile Include="Assets\IgnoreColissionScript.cs" />
      <Compile Include="Assets\LaserMachine\Core\Scripts\LaserData.cs" />
      <Compile Include="Assets\LaserMachine\Core\Scripts\LaserMachine.cs" />

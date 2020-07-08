@@ -4,14 +4,24 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    
     public int maxHP;
+    
 
     private int actualHP;
     private bool isPlayer;
+
+    private HealthBar healthBar;
     void Start()
     {
         actualHP = maxHP;
         isPlayer = (gameObject.tag == "Player");
+
+        healthBar = GetComponent<HealthBar>();
+        if(healthBar != null)
+        {
+            healthBar.initSlider(0,maxHP,actualHP);
+        }
     }
 
     // Update is called once per frame
@@ -23,6 +33,7 @@ public class Health : MonoBehaviour
     public void takeDamage(int damage)
     {
         actualHP -= damage;
+        setHealthBar();
         if(actualHP<=0)
         {
             if(isPlayer)
@@ -37,5 +48,13 @@ public class Health : MonoBehaviour
             }
             
         }
+        
+    }
+
+    private void setHealthBar()
+    {
+        if(healthBar != null)
+            healthBar.setSlider(actualHP);
+
     }
 }
