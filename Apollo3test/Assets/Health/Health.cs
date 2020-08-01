@@ -44,6 +44,8 @@ public class Health : MonoBehaviour
             }
             else
             {
+                GameManager gm = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
+                gm.turretKilled();
                 Destroy(gameObject);
             }
             

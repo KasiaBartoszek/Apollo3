@@ -9,7 +9,7 @@ public class Oxygen : MonoBehaviour
 
     public float maxOxygen;
     public float speedOfBreathing;
-    private float actualOxygen;
+    public float actualOxygen;
 
     private OxygenBar oxygenBar;
     void Start()
