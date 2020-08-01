@@ -56,6 +56,13 @@ public class GameManager : MonoBehaviour
         gameover = true;
     }
 
+
+    public void finish()
+    {
+        displayEndOfLevel();
+        pauseGame();
+    }
+
     public void endOfLevel()
     {
         displayEndOfLevel();

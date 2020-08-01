@@ -59,6 +59,7 @@
      <Compile Include="Assets\Script\BackCamera.cs" />
      <Compile Include="Assets\Script\BackCameraPositioning.cs" />
      <Compile Include="Assets\Script\MovingCameraScript.cs" />
+     <Compile Include="Assets\Script\finish.cs" />
      <Compile Include="Assets\Script\movinglight.cs" />
      <Compile Include="Assets\SelfDestructScript.cs" />
      <Compile Include="Assets\SetSettingsScript1.cs" />
